@@ -1,11 +1,11 @@
 <template>
-  <h1>{{ fruit }}</h1>
+  <li>{{ name }}</li>
 </template>
 
 <script>
 export default {
   props:{
-    fruit:{
+    name:{
       type:String,
       default:''
     }

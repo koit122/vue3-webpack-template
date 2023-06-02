@@ -4,7 +4,7 @@ const CopyPlugin = require('copy-webpack-plugin')
 const {VueLoaderPlugin} = require('vue-loader')
 module.exports={
   resolve:{
-    extenstions:['.js','.vue'],
+    extensions : ['.vue','.js'],
     alias:{
       '~':path.resolve(__dirname, 'src'),
       'assets':path.resolve(__dirname, 'src/assets')
@@ -41,7 +41,7 @@ module.exports={
         ]
       },
       {
-        test:/.\(png|jpe?g|gif|webp)$/,
+        test:/\.(png|jpe?g|gif|webp)$/,
         use:[
           'file-loader'
         ]

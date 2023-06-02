@@ -1,8 +1,9 @@
 $color--black:#000;
 $color--white:#fff;
+
 body{
   background-color: $color--black;
-  h1{
+  li{
     color: $color--white;
     font-size:40px;
     display:flex;
